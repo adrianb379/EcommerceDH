@@ -65,7 +65,7 @@ $mail->setFrom('no-reply@iphonestore.com','Iphone Store');
 $mail->addAddress($_GET['userEmail'], '');
 $mail->Subject = 'Password Recovery';
 
-$href = 'http://localhost/eCommerceDH-ATLAS/reset-pwd-change.php?validator='. $tokenToHex .'&userEmail='. $_GET["userEmail"];
+$href = 'http://localhost/IntegradorFullStack/reset-pwd-change.php?validator='. $tokenToHex .'&userEmail='. $_GET["userEmail"];
 $mail->Body = '<h1>¡Siga el siguiente enlace para elegir una nueva contraseña!</h1>
                 <a href="'. $href .'">'. $href .'</a>';
 
