@@ -55,29 +55,7 @@ loginByCookie();
             <button class="col-9 col-md-3 mt-4 mb-5 btn btn-outline-primary btn-block "><a
                     href="productos.php">CONTINUAR COMPRANDO</a></button>
         </div>
-        <section id="articulos" class="row justify-content-between">
-            <h2 class="col-12 subtitulo">RECOMENDACIONES </h2>
-            <article class="col-12 col-md-6 col-lg-4 col-xl-3 border border-secondary">
-                <a href="detallep.php"><img class="imgpr" src="images/iPhone8.png" alt=""></a>
-                <h6>iPhone 11</h6>
-                <p>$50.000</p>
-            </article>
-            <article class="col-12 col-md-6 col-lg-4 col-xl-3 border border-secondary">
-                <a href="detallep.php"><img class="imgpr" src="images/iPhone8.png" alt=""></a>
-                <h6>iPhone 11</h6>
-                <p>$50.000</p>
-            </article>
-            <article class="col-12 col-md-6 col-lg-4 col-xl-3 border border-secondary">
-                <a href="detallep.php"><img class="imgpr" src="images/iPhone8.png" alt=""></a>
-                <h6>iPhone 11</h6>
-                <p>$50.000</p>
-            </article>
-            <article class="col-12 col-md-6 col-lg-4 col-xl-3 border border-secondary">
-                <a href="detallep.php"> <img class="imgpr" src="images/iPhone8.png" alt=""></a>
-                <h6>iPhone 11</h6>
-                <p>$50.000</p>
-            </article>
-
+      
 
             <?php include_once("parts/footer.php"); ?>
 
