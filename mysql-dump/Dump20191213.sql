@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `atlas_db` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `atlas_db`;
+CREATE DATABASE  IF NOT EXISTS `iphone_store` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `iphone_store`;
 -- MySQL dump 10.13  Distrib 5.7.26, for Linux (x86_64)
 --
--- Host: 127.0.0.1    Database: atlas_db
+-- Host: 127.0.0.1    Database: iphone_store
 -- ------------------------------------------------------
 -- Server version	5.7.26-0ubuntu0.18.10.1
 
@@ -37,7 +37,7 @@ CREATE TABLE `categories` (
 
 LOCK TABLES `categories` WRITE;
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
-INSERT INTO `categories` VALUES (1,'surfboards'),(2,'accesories'),(3,'neoprene'),(4,'clothes'),(5,'footwear');
+INSERT INTO `categories` VALUES (1,'iphone1'),(2,'iphone2'),(3,'iphone3'),(4,'iphone4'),(5,'iphone5');
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 UNLOCK TABLES;
 
