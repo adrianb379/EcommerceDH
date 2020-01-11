@@ -11,7 +11,7 @@ loginByCookie();
   $bs = 1;
   $firstStyle = 'css/header_and_footer.css';
   $secondStyle = 'css/questions.css';
-  $title = 'Frequently asked questions';
+  $title = 'Preguntas Frecuentes';
 
 
   include 'parts/header.php';
