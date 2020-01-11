@@ -40,7 +40,7 @@ $logged = isset($_SESSION['login']);
       </div>
       <nav id="nav" class="">
         <ul>
-          
+
           <?php if($logged){
             echo '<li class="dropdown__toggler"><img src="images/users/'. $_SESSION['user']['user_pic'] .'" class="thumbnail-user"/><a>' . $_SESSION['user']['user_name'] . '</a>
                     <div class="dropdown__box">
@@ -128,6 +128,7 @@ $logged = isset($_SESSION['login']);
 
         <!-- ARTICULOS -->
         <section class="pricing py-5">
+          <h2> Productos destacados </h2>
   <div class="container">
     <div class="row">
       <!-- Free Tier -->
