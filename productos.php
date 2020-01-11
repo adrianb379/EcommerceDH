@@ -11,7 +11,7 @@ loginByCookie();
   $bs = 1;
   $firstStyle = 'css/header_and_footer.css';
   $secondStyle = 'css/questions.css';
-  $title = 'Frequently asked questions';
+  $title = 'Nuestros Productos';
 
 
   include 'parts/header.php';
@@ -33,7 +33,7 @@ loginByCookie();
     <!-- CONTENEDOR DEL SITIO-->
     <div class="container">
 
-      
+
         <!-- TITULO -->
         <div class="row">
             <div class="col-12">
