@@ -169,7 +169,9 @@ $logged = isset($_SESSION['login']);
       </div>
     </div>
   </div>
+  <div><img src="images/iphonebanner.jpg" class="img-fluid" alt="Responsive image" style="width:100%"></div>
 </section>
+
 
         <?php include_once("parts/footer.php")?>
 
