@@ -1,7 +1,6 @@
 <!-- FOOTER-->
 <footer>
   <div class="contact">
-    <h5>CONTACTO</h5>
     <ul>
       <li>Telefono: <br> <a href="tel:1234-5588">1234-5678</a> </li>
       <li>Email: <br> <a href="mailto:contact@iphone.com">contact@iphonestore.com</a> </li>
